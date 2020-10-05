@@ -7,24 +7,19 @@
     <link rel="stylesheet" href="./css/products.css">
 </head>
 <body>
-    <div class="btn-background">
-        <label class="container">1 Bag - You save 15%
-            <input type="radio" checked="checked" name="radio">
-            <span class="checkmark"></span>
-        </label>
-    </div>
-    <div> 
-        <label class="container">3 Bags - You save 15% 
-            <input type="radio" name="radio">
-            <span class="checkmark"></span>
-        </label>
-    </div>
-    <div>
-        <label class="container">6 Bags - You save 15%
-            <input type="radio" name="radio">
-            <span class="checkmark"></span>
-        </label>
-    </div>
+    <label class="container" id="checkBox">1 Bag - You save 15%
+        <input type="radio" name="radio" id="checkBox" onclick="myFunction()">
+        <span class="checkmark"></span>
+    </label> 
+    <label class="container cont2">3 Bags - You save 15% 
+        <input type="radio" name="radio" id="checkBox" onclick="myFunction()">
+        <span class="checkmark"></span>
+    </label>
+    <label class="container cont3">6 Bags - You save 15%
+        <input type="radio" name="radio" id="checkBox" onclick="myFunction()">
+        <span class="checkmark"></span>
+    </label>
+    <script src="./js/radioButton.js"></script>
 </body>
 </html>
 

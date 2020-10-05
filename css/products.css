@@ -2,7 +2,7 @@
 .container {
   display: block;
   position: relative;
-  padding-left: 35px;
+  padding-left: 45px;
   margin-bottom: 12px;
   cursor: pointer;
   font-size: 22px;
@@ -11,7 +11,7 @@
   -ms-user-select: none;
   user-select: none;
   width: 250px;
-  height: 40px;
+  line-height: 40px;
   background-color: white;
 }
 
@@ -25,8 +25,8 @@
 /* Create a custom radio button */
 .checkmark {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 6px;
+  left: 6px;
   height: 25px;
   width: 25px;
   border: 1px #D26546 solid;
@@ -36,12 +36,6 @@
 /* When the radio button is checked, add a background */
 .container input:checked ~ .checkmark {
   background-color: white;
-}
-.container input:checked ~ .btn-background {
-    background-color: #D26546;
-}
-.container {
-    background-color: white
 }
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .checkmark:after {
