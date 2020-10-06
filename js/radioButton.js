@@ -7,13 +7,13 @@ function selectOnlyThis(id) {
 function paspaudimas(){       
     if(document.getElementById('Check1').checked === true){
         console.log('Pirmasis!!!');
-        window.open("http://www.google.lt","_self")
+        window.open("http://www.google.lt","_self") //option 1 linkas
     } else if(document.getElementById('Check2').checked === true) {
         console.log('Antrasis!!!');
-        window.open("http://www.facebook.com","_self")
+        window.open("http://www.facebook.com","_self") //option 2 linkas
     } else if(document.getElementById('Check3').checked === true) {
         console.log('Trečiasis!!!');
-        window.open("http://www.reddit.com","_self")
+        window.open("http://www.reddit.com","_self") //option 3 linkas
     } else {
         console.log('Nepasirinktas');
     }
