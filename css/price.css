@@ -1,0 +1,20 @@
+.divPrice {
+    height: 90px;
+    width: 150px;
+}
+    .oldPrice {
+        display: inline-block;
+        line-height: 40px;
+        font-size: 20px;
+        width: 100%;
+        font-weight: bold;
+        text-decoration-line: line-through;
+        color: rgb(73, 72, 72);
+    }
+    .price {
+        display: inline-block;
+        line-height: 50px;
+        font-size: 40px;
+        width: 100%;
+        color: red;
+    }

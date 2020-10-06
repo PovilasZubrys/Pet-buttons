@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/cartButton.css">
     <link rel="stylesheet" href="./css/radioButtons.css">
+    <link rel="stylesheet" href="./css/price.css">
 </head>
 <body>
     <label class="container">
@@ -20,6 +21,11 @@
         <input type="checkbox" id="Check2" value="Value1" onclick="selectOnlyThis(id)"/> Option 3
         <span class="checkmark"></span>
     </label>
+    <!-- Kainos div'as ir span, čia klijuoja kainą iš JS-->
+    <div class="divPrice"> 
+        <span class="oldPrice"></span>
+        <span class="price"></span>
+    </div>
     <a id="cartButton" class="ninja-forms-field">Add to cart ></a>
 </body>
 <script src="./js/radioButton.js"></script>
