@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/products.css">
+    <link rel="stylesheet" href="./css/cartButton.css">
+    <link rel="stylesheet" href="./css/radioButtons.css">
 </head>
 <body>
-    <label class="container" id="checkBox">1 Bag - You save 15%
-        <input type="radio" name="radio" id="checkBox" onclick="myFunction()">
-        <span class="checkmark"></span>
-    </label> 
-    <label class="container cont2">3 Bags - You save 15% 
-        <input type="radio" name="radio" id="checkBox" onclick="myFunction()">
+    <label class="container">
+        <input type="checkbox" id="Check1" value="Value1" onclick="selectOnlyThis(this.id)" /> Option 1
         <span class="checkmark"></span>
     </label>
-    <label class="container cont3">6 Bags - You save 15%
-        <input type="radio" name="radio" id="checkBox" onclick="myFunction()">
+    <label class="container">
+        <input type="checkbox" id="Check2" value="Value1" onclick="selectOnlyThis(this.id)" /> Option 2
         <span class="checkmark"></span>
     </label>
-    <script src="./js/radioButton.js"></script>
+    <label class="container">
+        <input type="checkbox" id="Check3" value="Value1" onclick="selectOnlyThis(this.id)" /> Option 3
+        <span class="checkmark"></span>
+    </label>
+    <button class="ninja-forms-field" onclick="paspaudimas()">Add to cart ></button>
 </body>
+<script src="./js/radioButton.js"></script>
 </html>
-

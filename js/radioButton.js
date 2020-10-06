@@ -1,27 +1,20 @@
-function myFunction() {
-    var myLayer = document.getElementById("checkBox");
-    console.log(myLayer);
-    if (myLayer.checked != true) {
-        myLayer.style.backgroundColor = "#D26546";
+function selectOnlyThis(id) {
+    for (var i = 1;i <= 3; i++) {
+        var mygt = document.getElementById("Check" + i).checked = false;
+    }
+        document.getElementById(id).checked = true;
+    }
+function paspaudimas(){       
+    if(document.getElementById('Check1').checked === true){
+        console.log('Pirmasis!!!');
+        window.open("http://www.google.lt","_self")
+    } else if(document.getElementById('Check2').checked === true) {
+        console.log('Antrasis!!!');
+        window.open("http://www.facebook.com","_self")
+    } else if(document.getElementById('Check3').checked === true) {
+        console.log('Trečiasis!!!');
+        window.open("http://www.reddit.com","_self")
     } else {
-        myLayer.style.backgroundColor = "white";
+        console.log('Nepasirinktas');
     }
 }
-// function myFunction2() {
-//     const x = document.getElementById(checkBox);
-//     console.log(x);
-//     if (x.checked != false) {
-//         x.style.backgroundColor = "#D26546";
-//     } else {
-//         x.style.backgroundColor = "white";
-//     }
-// }
-// function myFunction3() {
-//     const x = document.querySelector(".cont3");
-//     console.log(x);
-//     if (x.checked != false) {
-//         x.style.backgroundColor = "#D26546";
-//     } else {
-//         x.style.backgroundColor = "white";
-//     }
-// }

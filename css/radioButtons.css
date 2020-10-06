@@ -37,20 +37,24 @@
 .container input:checked ~ .checkmark {
   background-color: white;
 }
+.container input:checked ~ .checkbox{
+  background-color: #D26546;
+}
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
-
 /* Show the indicator (dot/circle) when checked */
 .container input:checked ~ .checkmark:after {
   display: block;
   width: 15px;
   height: 15px;
 }
-
+.container input:checked + .container {
+  background-color: #D26546;
+}
 /* Style the indicator (dot/circle) */
 .container .checkmark:after {
  	top: 5px;
