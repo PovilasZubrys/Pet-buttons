@@ -1,4 +1,6 @@
 .ninja-forms-field {
+    text-align: center;
+    text-decoration: none;
     border-width: 2px;
     border-style: solid;
     border-color: #997e33;
