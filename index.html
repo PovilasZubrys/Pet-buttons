@@ -12,24 +12,45 @@
     <link rel="stylesheet" href="./css/price.css">
 </head>
 <body>
-    <label class="container">
-        <input type="checkbox" id="Check0" value="Value1"  onclick="selectOnlyThis(id)"> Option 1
-        <span class="checkmark"></span>
-    </label>
-    <label class="container">
-        <input type="checkbox" id="Check1" value="Value1" onclick="selectOnlyThis(id)"> Option 2
-        <span class="checkmark"></span>
-    </label>
-    <label class="container">
-        <input type="checkbox" id="Check2" value="Value1" onclick="selectOnlyThis(id)"> Option 3
-        <span class="checkmark"></span>
-    </label>
-    <!-- Kainos div'as ir span, čia klijuoja kainą iš JS-->
-    <div class="divPrice"> 
-        <span class="oldPrice">55.45$</span>
-        <span class="price">35.95$</span>
+    <div class="oneTimePurchase">
+        <label class="container">
+            <input type="checkbox" id="Check0" value="Value1"  onclick="selectOnlyThis(id)"> Option 1
+            <span class="radioPrice">$$$</span>
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">
+            <input type="checkbox" id="Check1" value="Value1" onclick="selectOnlyThis(id)"> Option 2
+            <span class="radioPrice">$$$</span>
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">
+            <input type="checkbox" id="Check2" value="Value1" onclick="selectOnlyThis(id)"> Option 3
+            <span class="radioPrice">$$$</span>
+            <span class="checkmark"></span>
+        </label>
     </div>
-    <a id="cartButton" class="ninja-forms-field">Add to cart ></a>
+    <div class="subscription">
+        <label class="container">
+            <input type="checkbox" id="Check3" value="Value1"  onclick="selectOnlyThis(id)"> Option 1
+            <span class="radioPrice">$$$/mo</span>
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">
+            <input type="checkbox" id="Check4" value="Value1" onclick="selectOnlyThis(id)"> Option 2
+            <span class="radioPrice">$$$/mo</span>
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">
+            <input type="checkbox" id="Check5" value="Value1" onclick="selectOnlyThis(id)"> Option 3
+            <span class="radioPrice">$$$/mo</span>
+            <span class="checkmark"></span>
+        </label>
+    </div>
+            <div class="divPrice">
+                <span class="oldPrice">55.45$</span>
+                <span class="price">35.95$</span>
+            </div>
+                <a id="cartButton" class="ninja-forms-field">Add to cart ></a>
 </body>
 <!-- JS failas -->
 <script src="./js/radioButton.js"></script>

@@ -14,21 +14,6 @@
   line-height: 40px;
   background-color: white;
 }
-.container1::after {
-  display: block;
-  position: relative;
-  padding-left: 45px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 250px;
-  line-height: 40px;
-  background-color: #D26546;
-}
 label.active {
   background-color: #D26546;
 }
@@ -81,4 +66,12 @@ label.active {
 	height: 15px;
 	border-radius: 50%;
 	background: #D26546;
+}
+.radioPrice {
+  float: right;
+  margin-right: 15px;
+}
+.oneTimePurchase,
+.subscription {
+  border: black 1px solid;
 }
