@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="./css/price.css">
 </head>
 <body>
+    <!-- one time purchase blokas -->
     <div class="oneTimePurchase">
         <label class="container">
-            <input type="checkbox" id="Check0" value="Value1"  onclick="selectOnlyThis(id)"> Option 1
+            <input type="checkbox"  id="Check0" value="Value1" onclick="selectOnlyThis(id)"> Option 1
             <span class="radioPrice">$$$</span>
             <span class="checkmark"></span>
         </label>
@@ -29,9 +30,11 @@
             <span class="checkmark"></span>
         </label>
     </div>
-    <div class="subscription">
-        <label class="container">
-            <input type="checkbox" id="Check3" value="Value1"  onclick="selectOnlyThis(id)"> Option 1
+        <a id="cartButtonOneTime" class="ninja-forms-field">Add to cart ></a>
+        <!-- subscription blokas -->
+    <div class="subscription" style="margin-top: 20px">
+        <label class="container style="style="background-color: #D26546; border-radius: 10px; color: white;"">
+            <input checked type="checkbox" id="Check3" value="Value1"  onclick="selectOnlyThis(id)"> Option 1
             <span class="radioPrice">$$$/mo</span>
             <span class="checkmark"></span>
         </label>
@@ -50,7 +53,7 @@
                 <span class="oldPrice">55.45$</span>
                 <span class="price">35.95$</span>
             </div>
-                <a id="cartButton" class="ninja-forms-field">Add to cart ></a>
+                <a id="cartButtonSubscription" class="ninja-forms-field">Add to cart ></a>
 </body>
 <!-- JS failas -->
 <script src="./js/radioButton.js"></script>
